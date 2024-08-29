@@ -71,7 +71,7 @@ public class Items {
             total += items[i].getPrice();
         }
 
-        // Input the total number of coins
+        // Input the total number of coins that Spon collected
         Scanner input = new Scanner(System.in);
         System.out.print("Nhập số xu vàng mà Spon thu được: ");
         double coins = Double.parseDouble(input.nextLine());
