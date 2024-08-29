@@ -43,6 +43,7 @@ public class Items {
 
     // Câu 2
     public void printFiveItems() {
+        System.out.println("===== Danh sách vật phẩm =====\n");
         for (int i = 0; i < SIZE; i++) {
             System.out.println("Vật phẩm thứ " + (i + 1));
             System.out.println(items[i]);
