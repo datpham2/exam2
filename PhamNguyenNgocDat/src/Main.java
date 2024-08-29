@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 public class Main {
+
+    // Câu 5
     public static void main(String[] args) {
         Items items = new Items();
         items.addFiveItems();
